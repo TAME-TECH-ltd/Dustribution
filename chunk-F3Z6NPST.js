@@ -1,1 +1,0 @@
-import{N as o}from"./chunk-YS7HGOOV.js";var n=(()=>{class t{constructor(){}getAuthorizationToken(){return localStorage.getItem("token")}setToken(e){localStorage.setItem("token",e)}active(){return!!localStorage.getItem("token")}static{this.\u0275fac=function(r){return new(r||t)}}static{this.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{n as a};
