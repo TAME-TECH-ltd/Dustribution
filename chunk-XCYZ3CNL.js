@@ -1,0 +1,1 @@
+import{N as e,S as i,jc as o}from"./chunk-YS7HGOOV.js";var s=(()=>{class t{constructor(r){this.http=r}getBranch(){return this.http.get("branches/show")}static{this.\u0275fac=function(n){return new(n||t)(i(o))}}static{this.\u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{s as a};
