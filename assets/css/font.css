@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: 'BR Omega';
+  src:url('../fonts/BROmega-Bold.eot');
+  src: local('BR Omega Bold'), local('BROmega-Bold'),
+     url('../fonts/BROmega-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/BROmega-Bold.woff2') format('woff2'),
+     url('../fonts/BROmega-Bold.woff') format('woff'),
+     url('../fonts/BROmega-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'BR Omega';
+  src:url('../fonts/BROmega-Medium.eot');
+  src: local('BR Omega Medium'), local('BROmega-Medium'),
+     url('../fonts/BROmega-Medium.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/BROmega-Medium.woff2') format('woff2'),
+     url('../fonts/BROmega-Medium.woff') format('woff'),
+     url('../fonts/BROmega-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BR Omega';
+  src:url('../fonts/BROmega-Black.eot');
+  src: local('BR Omega Black'), local('BROmega-Black'),
+     url('../fonts/BROmega-Black.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/BROmega-Black.woff2') format('woff2'),
+     url('../fonts/BROmega-Black.woff') format('woff'),
+     url('../fonts/BROmega-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'BR Omega Semi';
+  src:url('../fonts/BROmega-SemiBold.eot');
+  src: local('BR Omega Semi Bold'), local('BROmega-SemiBold'),
+     url('../fonts/BROmega-SemiBold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/BROmega-SemiBold.woff2') format('woff2'),
+     url('../fonts/BROmega-SemiBold.woff') format('woff'),
+     url('../fonts/BROmega-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BR Omega';
+  src:url('../fonts/BROmega-Regular.eot');
+  src: local('BR Omega'), local('BROmega-Regular'),
+     url('../fonts/BROmega-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/BROmega-Regular.woff2') format('woff2'),
+     url('../fonts/BROmega-Regular.woff') format('woff'),
+     url('../fonts/BROmega-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
