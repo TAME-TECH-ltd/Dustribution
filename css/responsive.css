@@ -1,0 +1,127 @@
+/* Mobile Phones */
+/* Small phones (iPhone SE, small Android phones) */
+@media only screen and (max-width: 320px) {
+	/* Your CSS rules for very small phones */
+}
+
+/* Typical smartphones (iPhone 6/7/8/X/11/12/13, most Android phones) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+	/* Your CSS rules for standard phones */
+}
+
+/* Large smartphones (iPhone Plus models, Google Pixel, etc.) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	/* Your CSS rules for larger phones */
+}
+
+/* All mobile phones (0-767px) */
+@media only screen and (max-width: 767px) {
+	/* Your CSS rules for all mobile devices */
+}
+
+/* Tablets */
+/* Small tablets (iPad Mini, Kindle, etc.) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* Your CSS rules for small tablets */
+}
+
+/* Large tablets (iPad Pro, Surface, larger Android tablets) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* Your CSS rules for large tablets */
+}
+
+/* All tablets (768px-1199px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	/* Your CSS rules for all tablets */
+}
+
+/* Desktops & Laptops */
+@media only screen and (min-width: 1200px) {
+	/* Your CSS rules for desktops and laptops */
+}
+
+/* High resolution displays */
+@media only screen and (min-width: 1400px) {
+	/* Your CSS rules for high resolution screens */
+}
+
+/* Orientation-specific rules */
+/* Portrait mode */
+@media only screen and (orientation: portrait) {
+	/* CSS for portrait orientation */
+}
+
+/* Landscape mode */
+@media only screen and (orientation: landscape) {
+	/* CSS for landscape orientation */
+}
+
+/* Device-specific media queries */
+/* iPhone X, 11, 12, 13 with notch */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3),
+	only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3),
+	only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+	/* CSS specific to iPhone models with notch */
+}
+
+/* iPads */
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+	/* CSS specific to standard iPads */
+}
+
+/* iPad Pro */
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+	/* CSS specific to iPad Pro */
+}
+
+/* Bootstrap-compatible breakpoints (if using Bootstrap) */
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+	/* Bootstrap xs */
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* Bootstrap sm */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Bootstrap md */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* Bootstrap lg */
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+	/* Bootstrap xl */
+}
+
+/* Tailwind CSS-compatible breakpoints (if using Tailwind) */
+/* Small (sm) */
+@media (min-width: 640px) {
+	/* Tailwind sm */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+	/* Tailwind md */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+	/* Tailwind lg */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+	/* Tailwind xl */
+}
+
+/* 2XL */
+@media (min-width: 1536px) {
+	/* Tailwind 2xl */
+}
