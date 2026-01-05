@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="/favicon.ico" />
+		<title>TAME APPS</title>
+		<link rel="apple-touch-icon" sizes="76x76" href="/pos/img/icons/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/pos/img/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/pos/img/icons/favicon-16x16.png" />
+		<link rel="manifest" href="/pos/img/icons/site.webmanifest" />
+		<link rel="mask-icon" href="/pos/img/icons/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="stylesheet" href="/pos/css/bootstrap.min.css?ver=5.2.3" />
+		<link rel="stylesheet" href="/pos/css/tame-pos.min.css?ver=3.0.0" />
+		<link rel="stylesheet" href="/pos/css/custom.min.css?ver=3.0.0" />
+		<style>
+			@font-face {
+				font-family: 'alarm clock';
+				src: URL('/fonts/alarm.ttf') format('truetype');
+			}
+		</style>
+		<script>
+			window.TODAY = localStorage.getItem('today') || new Date().toLocaleString('fr-CA').slice(0, 10);
+			window.TIMEZONE = localStorage.getItem('_tz') || 'Africa/Kigali';
+		</script>
+		<script type="module" crossorigin src="/pos/assets/index-HnregUL_.js"></script>
+		<link rel="modulepreload" crossorigin href="/pos/assets/vue-OMd96UUg.js">
+		<link rel="modulepreload" crossorigin href="/pos/assets/jspdf-DBD-dlvD.js">
+		<link rel="modulepreload" crossorigin href="/pos/assets/exceljs-D_3E_aRU.js">
+		<link rel="modulepreload" crossorigin href="/pos/assets/app-init-Xldnv7cj.js">
+		<link rel="modulepreload" crossorigin href="/pos/assets/BootstrapModal-8VvlGywv.js">
+		<link rel="modulepreload" crossorigin href="/pos/assets/LoadingDots-PbYoIwyx.js">
+		<link rel="modulepreload" crossorigin href="/pos/assets/menus-CVWzBC42.js">
+		<link rel="stylesheet" crossorigin href="/pos/assets/app-init-D9tdcyuz.css">
+		<link rel="stylesheet" crossorigin href="/pos/assets/BootstrapModal-BlVQnuQO.css">
+		<link rel="stylesheet" crossorigin href="/pos/assets/LoadingDots-Cx1uwEKA.css">
+		<link rel="stylesheet" crossorigin href="/pos/assets/index-0asDNdk5.css">
+	</head>
+	<body class="jumping">
+		<noscript>
+			<strong
+				>We're sorry but POS doesn't work properly without JavaScript enabled. Please enable it to continue.</strong
+			>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+		<script>
+			window.addEventListener('beforeunload', () => {
+				const isPrinting = sessionStorage.getItem('isPrinting');
+				if (isPrinting) {
+					localStorage.removeItem('__printing_tab');
+				}
+			});
+		</script>
+		<script src="/pos/js/bootstrap.min.js"></script>
+	</body>
+</html>
