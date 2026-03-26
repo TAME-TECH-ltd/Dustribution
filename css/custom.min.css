@@ -276,7 +276,11 @@
 	.font-xs {
 		font-size: 12px;
 	}
-	.report-filter-wrapper{
+	.report-filter-wrapper {
 		padding-left: 0 !important;
+	}
+	.h4,
+	h4 {
+		font-size: 0.825rem;
 	}
 }
