@@ -1,4 +1,3 @@
-
 @media (min-width: 1868px) {
 	.stock-offcanvas {
 		--bs-offcanvas-width: 80vw;
@@ -265,5 +264,19 @@
 	padding-bottom: 0.3125rem;
 }
 .form-label {
-    font-size: .825rem;
+	font-size: 0.825rem;
+}
+@media only screen and (max-width: 767px) {
+	.hidden-on-modile {
+		display: none !important;
+	}
+	.report-title {
+		align-items: start !important;
+	}
+	.font-xs {
+		font-size: 12px;
+	}
+	.report-filter-wrapper{
+		padding-left: 0 !important;
+	}
 }
