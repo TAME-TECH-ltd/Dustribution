@@ -284,3 +284,37 @@
 		font-size: 0.825rem;
 	}
 }
+
+.bottom-form-actions {
+	left: 200px;
+}
+.line-item-table thead th {
+	color: #222;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 8px 10px;
+	border-color: #ebeaf2;
+}
+
+.line-item-table tbody td {
+    padding: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.line-item-table tbody td  .form-control {
+    border: 1px solid transparent;
+    box-shadow: none;
+    outline: 0;
+	padding: 5px 8px;
+	min-height: 34px;
+}
+textarea {
+    resize: vertical;
+}
+.vr, hr {
+	opacity: 0.4;
+}
