@@ -1,0 +1,1 @@
+function c(n,t,f){let a=t.value;var e=a.key,r=0;if(Array.isArray(a.array))r=a.array.length;else if(typeof a.array=="object"){var l=Object.keys(a.array);e=l.indexOf(e),r=l.length}e==r-1&&typeof a.callback=="function"&&a.callback.bind(f.context)()}export{c as f};
