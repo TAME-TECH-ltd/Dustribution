@@ -318,3 +318,72 @@ textarea {
 .vr, hr {
 	opacity: 0.4;
 }
+
+.tabs-gradient {
+	background: linear-gradient(to bottom, #f8f9fa, #fff);
+}
+.nav-tabs .nav-link {
+	color: #6c757d;
+	background: transparent;
+	margin-bottom: 0;
+	transition: all 0.3s ease;
+}
+.nav-tabs .nav-link:hover {
+	color: #495057;
+	background: #00000005;
+	border-color: transparent;
+}
+.nav-tabs .nav-link.active {
+	color: var(--base-color);
+	background: #fff;
+	border-color: transparent;
+	border-bottom: 3px solid var(--base-color) !important;
+}
+.nav-tabs .nav-link.active .tab-icon {
+	background: #e7f1ff !important;
+	transform: scale(1.05);
+}
+.nav-tabs .nav-link.active .fw-semibold {
+	color: var(--base-color) !important;
+}
+.tab-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	transition: all 0.3s ease;
+}
+.tab-icon-blue {
+	background: #e8f4f8;
+}
+.tab-icon-purple {
+	background: #f0e8f8;
+}
+.tab-icon-orange {
+	background: #fff4e8;
+}
+.nav-tabs .nav-link:hover .tab-icon {
+	transform: translateY(-2px);
+}
+.tab-title {
+	font-size: 15px;
+}
+.tab-subtitle {
+	font-size: 12px;
+}
+@media (max-width: 768px) {
+	.nav-tabs .nav-link {
+		padding: 0.75rem 1rem !important;
+	}
+	.tab-title {
+		font-size: 13px !important;
+	}
+	.tab-subtitle {
+		font-size: 11px !important;
+	}
+	.tab-icon {
+		width: 35px !important;
+		height: 35px !important;
+		font-size: 18px !important;
+	}
+}
