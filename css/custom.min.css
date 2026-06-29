@@ -387,3 +387,48 @@ textarea {
 		font-size: 18px !important;
 	}
 }
+.sheet-view td {
+  padding: 0 0.5rem !important;
+  border-top: 2px solid #ececf9;
+}
+.sheet-view td:not(:last-child) {
+  border-right: 1px solid #ececf9;
+}
+.sheet-view .sheet-field.form-control,
+.sheet-view .ac-select.form-control,
+.currency-with-amount > .form-control {
+  height: 42px;
+  border-color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: 500;
+}
+.sheet-view .sheet-field.form-control:active {
+  box-shadow: none;
+  border-color: #408dfb;
+}
+.sheet-field .currency-with-amount {
+  display: table;
+  width: 100%;
+}
+.currency-with-amount > .currency-field {
+  width: 68px;
+  max-width: 80px;
+  font-weight: bold;
+}
+.currency-with-amount > .form-control,
+.currency-with-amount > .currency-field {
+  display: table-cell;
+  vertical-align: middle;
+}
+.currency-with-amount > .form-control,
+.sheet-view .ac-select.form-control,
+.sheet-view .sheet-field.form-control {
+	height: 34px;
+}
+.currency-with-amount > .form-control:hover,
+.sheet-view .ac-select.form-control:hover	,
+.sheet-view .sheet-field.form-control:hover {
+	border: 1px solid var(--base-color);
+	border-radius: 5px;
+}
