@@ -1,0 +1,1 @@
+import{P as o,T as e,xc as n}from"./chunk-SWDGEVEG.js";var p=(()=>{let t=class t{constructor(i){this.http=i}getBranch(){return this.http.get("branches/show")}};t.\u0275fac=function(c){return new(c||t)(e(n))},t.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"});let r=t;return r})();export{p as a};
