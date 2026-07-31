@@ -1,1 +1,0 @@
-import{P as r}from"./chunk-BA3TZSAK.js";var c=(()=>{let t=class t{constructor(){}getAuthorizationToken(){return localStorage.getItem("token")}setToken(o){localStorage.setItem("token",o)}active(){return!!localStorage.getItem("token")}};t.\u0275fac=function(a){return new(a||t)},t.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"});let e=t;return e})();export{c as a};
