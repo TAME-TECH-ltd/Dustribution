@@ -2360,3 +2360,136 @@ th {
 .pcs-template-body table.table thead tr th:last-child {
   text-align: right;
 }
+.fullscreen-slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 1032;
+  animation: slide-down;
+  animation-duration: 0.5s;
+  transition: all 0.3s ease-in-out;
+}
+.bg-header {
+  background-color: #f4f4fb !important;
+}
+.px-30 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.expenses-bulk-add .scroll-y {
+  height: calc(100% - 3.9375rem - 3.5625rem);
+  width: 100%;
+}
+.scroll-y {
+  overflow-y: auto;
+}
+.scroll-x {
+  overflow-x: auto;
+}
+.scroll-x,
+.scroll-y {
+  -webkit-overflow-scrolling: touch;
+}
+.footer-container {
+  position: absolute;
+  height: 3.9375rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.9375rem 1.875rem;
+  box-shadow: 0 -2px 4px 0 #ebeaec;
+  z-index: 2;
+  background: #fff;
+}
+.btn-toolbar {
+  margin-left: 0;
+}
+.btn-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+/** Responsive **/
+@media (min-width: 1868px) {
+  .stock-offcanvas {
+    width: 80vw !important;
+  }
+}
+@media (min-width: 1728px) {
+  .stock-offcanvas {
+    width: 82vw !important;
+  }
+}
+@media (min-width: 1560px) {
+  .stock-offcanvas {
+    width: 84vw !important;
+  }
+}
+@media (min-width: 1450px) {
+  .stock-offcanvas {
+    width: 86vw !important;
+  }
+}
+@media (min-width: 1450px) {
+  .stock-offcanvas {
+    width: 86vw !important;
+  }
+}
+@media (min-width: 1312px) {
+  .stock-offcanvas {
+    width: 88vw !important;
+  }
+}
+@media (min-width: 1244px) {
+  .stock-offcanvas {
+    width: 89vw !important;
+  }
+}
+@media (min-width: 1172px) {
+  .stock-offcanvas {
+    width: 61vw !important;
+  }
+}
+@media (min-width: 1104px) {
+  .stock-offcanvas {
+    width: 62vw !important;
+  }
+}
+@media (min-width: 1035px) {
+  .stock-offcanvas {
+    width: 63vw !important;
+  }
+}
+@media (min-width: 914px) {
+  .stock-offcanvas {
+    width: 66vw !important;
+  }
+}
+@media (min-width: 800px) {
+  .stock-offcanvas {
+    width: 65vw !important;
+  }
+}
+@media (min-width: 712px) {
+  .stock-offcanvas {
+    width: 64vw !important;
+  }
+}
+@media (min-width: 640px) {
+  .stock-offcanvas {
+    width: 63vw !important;
+  }
+}
+@media (min-width: 582px) {
+  .stock-offcanvas {
+    width: 57vw !important;
+  }
+}
+@media (min-width: 480px) {
+  .stock-offcanvas {
+    width: 60vw !important;
+  }
+}
